@@ -1,0 +1,14 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "This is Sintaul Mahdi siams protfolio web site",
+  "main": "index.js",
+  "scripts": {
+    "compile-sass": "node-sass sass/main.scss -o css/ -w"
+  },
+  "author": "Sintaul Mahdi Siam",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^5.0.0"
+  }
+}

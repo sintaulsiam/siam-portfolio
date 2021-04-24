@@ -1,0 +1,18 @@
+.btn {
+  width: 10rem;
+  height: 3.5rem;
+  outline: none;
+  border: none;
+  background-color: orange;
+  border-radius: 0.8rem;
+  font-family: "Roboto", sans-serif;
+  font-size: 1.4rem;
+  color: white;
+  font-weight: bold;
+  box-shadow: 0 0.4rem 1rem white;
+  transition: all 0.2s ease;
+  &:active {
+    transform: translateY(4px);
+    box-shadow: 0 0.2rem 1rem white;
+  }
+}
